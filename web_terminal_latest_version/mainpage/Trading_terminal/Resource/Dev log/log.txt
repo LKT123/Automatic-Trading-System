@@ -1,0 +1,98 @@
+
+
+Structural Plan:
+
+1. Json File to store the settings                       # Need actions
+
+2. Data folder to store the historial data for testing   # Change to runtime calculation and need elaboration
+
+3. terminal.py for flow control                          # flow control handled to logic.py
+
+4. basic analysis for analysis folder                    # skdj, MACD and MA
+
+5. A separated py file to control the analysis (unsure)  # Implemented, see logic.py
+
+6. Analysis on different time intervals                  # Need actions
+
+7. Logging program that records test results             # Need actions
+
+8. Model for ML (future dev)                             # Preliminary verification combined with class project
+
+----------------------------------------------------------------------------------------------------------
+
+10/17/2023:
+
+- Figure out a way to automatically store the KDJ value properly - Changed, calculate the KDJ on the fly
+
+- Test for the connection - Finished
+
+- Implement the sKDJ calculation - Finished
+
+----------------------------------------------------------------------------------------------------------
+
+10/18/2023 
+
+- Logical Control   - Need further elaboration
+
+- Implment the reverse trading
+
+- test for trading operation and logical control on skdj
+
+----------------------------------------------------------------------------------------------------------
+
+10/23/2023
+
+- Move all global variables to the runtime_log class to manage separately    Almost done
+
+- Set up a JSON file allow settings for the operations   Done
+
+- Set up a time system that allow order submission and analysis only during the trading session   Done
+
+- Logical Control   - Need further elaboration
+
+- sKDJ calculation temporarily suspended
+
+----------------------------------------------------------------------------------------------------------
+
+10/24/2023
+
+- Record Profit  - wait for next round
+
+- Backward testing  Done
+
+- Retrieve hisorical data  Done
+
+----------------------------------------------------------------------------------------------------------
+
+10/26/2023
+
+- Smart Sleep  Done
+
+- Better Logic decision making   Need action
+
+- Record Profit
+
+- Deploy and set up the environment  Done
+
+----------------------------------------------------------------------------------------------------------
+
+04/28/2024
+
+- Better Logic decision making   Reframed and in test             In Progress
+
+- Record Profit wait for next round
+
+- Get scripts from tradingview                                    Done
+
+- Compile strategy based on scripts result                        Abandoned
+
+- Learn how the script is constructed                             Done
+
+- Integret the web capture to the trading bot                     Done
+
+- Build financial statement analysis section                     
+
+- Build economics data analysis section                           In Progress
+
+- Build financial condition analysis section                      In Plan
+

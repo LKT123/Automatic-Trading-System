@@ -1,0 +1,812 @@
+{
+    "baseline_stock/etf": "QQQ",
+    "long_stock/etf": "TQQQ",
+    "short_stock/etf": "SQQQ",
+    "Avoid overnight holdings": "False",
+    "discord_bot_token": "MTIzNzc1NjI5MzYzNzM0MTI0Ng.GaTjGz.aqjn90HE9Q3Kw2deoZOkl04bVv5Snq3kbwTGjU",
+    "accepted_users": [
+        "1186357184460755077"
+    ],
+    "fed_opinion": "S",
+    "fed_opinion_date": "May 22 2024",
+    "historical_fed_opinion": [
+        [
+            "L",
+            "January 03 2024"
+        ],
+        [
+            "L",
+            "January 31 2024"
+        ],
+        [
+            "L",
+            "March 07 2024"
+        ],
+        [
+            "S",
+            "March 29 2024"
+        ],
+        [
+            "L",
+            "April 03 2024"
+        ],
+        [
+            "L",
+            "April 10 2024"
+        ],
+        [
+            "S",
+            "April 16 2024"
+        ],
+        [
+            "L",
+            "May 01 2024"
+        ],
+        [
+            "L",
+            "May 14 2024"
+        ],
+        [
+            "S",
+            "May 22 2024"
+        ]
+    ],
+    "FED_Speech": null,
+    "macro_indicators": [
+        "Core Inflation Rate YoY",
+        "Core PCE Price Index MoM",
+        "Durable Goods Orders MoM",
+        "Retail Sales MoM"
+    ],
+    "macro_indicators_negative_list": [
+        "Core Inflation Rate YoY",
+        "Core PCE Price Index MoM",
+        "Durable Goods Orders MoM",
+        "Retail Sales MoM"
+    ],
+    "accepted_guest": [
+        "1240297325377617931",
+        "962031089482883082"
+    ],
+    "strategy_test_result": [
+        [
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    []
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_0.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_1.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_2.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_3.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_4.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    []
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_5.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_6.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core PCE Price Index MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_7.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_8.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_9.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_10.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Durable Goods Orders MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_11.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Non Farm Payrolls"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_12.png"
+            ],
+            [
+                [
+                    [
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_13.png"
+            ],
+            [
+                [
+                    [
+                        "Core PCE Price Index MoM",
+                        "Durable Goods Orders MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_14.png"
+            ],
+            [
+                [
+                    [
+                        "Core PCE Price Index MoM",
+                        "Non Farm Payrolls"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_15.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    []
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_16.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_17.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_18.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_19.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_20.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_21.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY",
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_22.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY",
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_23.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Retail Sales MoM",
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_profit_24.png"
+            ]
+        ],
+        [
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    []
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_0.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_1.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Core PCE Price Index MoM"
+                    ]
+                ],
+                108.58014753556733,
+                1.066467709727681,
+                "temp/by_max_loss_2.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_3.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_4.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_5.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    []
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_6.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_7.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core PCE Price Index MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_8.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_9.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_10.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_11.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Durable Goods Orders MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_12.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Non Farm Payrolls"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_13.png"
+            ],
+            [
+                [
+                    [
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_14.png"
+            ],
+            [
+                [
+                    [
+                        "Core PCE Price Index MoM",
+                        "Durable Goods Orders MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_15.png"
+            ],
+            [
+                [
+                    [
+                        "Core PCE Price Index MoM",
+                        "Non Farm Payrolls"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_16.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    []
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_17.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_18.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core PCE Price Index MoM"
+                    ]
+                ],
+                108.58014753556733,
+                1.066467709727681,
+                "temp/by_max_loss_19.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_20.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Durable Goods Orders MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_21.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Non Farm Payrolls"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_22.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM"
+                    ]
+                ],
+                108.58014753556733,
+                1.066467709727681,
+                "temp/by_max_loss_23.png"
+            ],
+            [
+                [
+                    [
+                        "Core Inflation Rate YoY",
+                        "Core PCE Price Index MoM",
+                        "Retail Sales MoM"
+                    ],
+                    [
+                        "Core Inflation Rate YoY",
+                        "Retail Sales MoM"
+                    ]
+                ],
+                109.41989720572752,
+                1.066467709727681,
+                "temp/by_max_loss_24.png"
+            ]
+        ]
+    ],
+    "inflation_related_indicators": [
+        "Core Inflation Rate YoY",
+        "Core PCE Price Index MoM"
+    ],
+    "growth_related_indicators": [
+        "Retail Sales MoM",
+        "Durable Goods Orders MoM",
+        "Non Farm Payrolls"
+    ],
+    "strategy_test_duration": 282,
+    "strategy_test_date": "2024-06-02 05:50:59",
+    "Custom-model-economic-indicator": [
+        "Core Inflation Rate YoY",
+        "Core PCE Price Index MoM",
+        "Retail Sales MoM",
+        "Durable Goods Orders MoM"
+    ],
+    "Custom-model-negative-list": [
+        "Core Inflation Rate YoY",
+        "Core PCE Price Index MoM",
+        "Retail Sales MoM",
+        "Durable Goods Orders MoM"
+    ],
+    "Enable_timesfm": true
+}

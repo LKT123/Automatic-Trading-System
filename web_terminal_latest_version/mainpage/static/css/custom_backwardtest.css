@@ -1,0 +1,14 @@
+.content {
+    width: 50%;
+    display: None;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 50px, 50px; /* Adds some padding around the content */
+}
+
+.checkbox-container{
+    column-count: 3;
+}

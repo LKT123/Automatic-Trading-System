@@ -1,0 +1,31 @@
+1. ma850_ma120_ma4_sqzmom_lb_supertrend
+
+
+Lime/Maroon: Value > Value[1]
+Green/Red: Value < Value[1]
+
+Bear Market:
+
+Enter Short:  squeeze-off[1] + squeeze-on  + Green
+
+Exit Short: squeeze-off + Maroon   or 3 consecutive lime/Maroon
+
+Enter Long: squeeze-off[1] + 3 consecutive Maroon or Lime with squeeze on
+
+Exit Long: 2 consecutive Green or Red       IN BEAR MARKET 1 
+
+Force Long: MA4 > MA120
+
+Force Short: MA4 < MA120
+
+Force Long: Touch MA850
+
+No Short Position Below MA850
+
+Short When MA4 < MA 120 with two consecutive green and squeeze-off
+
+IF BULL ON SUPER TREND:
+
+Switch to BULL
+
+OTHERWISE, NO ACTION

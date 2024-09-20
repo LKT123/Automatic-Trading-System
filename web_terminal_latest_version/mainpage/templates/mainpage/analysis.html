@@ -1,0 +1,517 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <title>MacroDigest Panel</title>
+</head>
+
+<body>
+    <div>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Jhenghei", sans-serif;
+            }
+
+            .logo path {
+                pointer-events: none;
+                fill: none;
+                stroke-linecap: round;
+                stroke-width: 7;
+                stroke: rgb(255, 255, 255);
+            }
+
+            .wechat-group img {
+                max-width: 220px;
+                height: auto;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                border-bottom-left-radius: 8px;
+                margin-top: 0px;
+                margin-right: auto;
+                margin-bottom: 0px;
+                margin-left: auto;
+                width: 100%;
+            }
+
+            .welcome-img img {
+                width: 100%;
+            }
+
+            .bg-gradient-primary {
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                border-bottom-left-radius: 8px;
+            }
+
+            .img-fluid {
+                height: 640.0000732421875px;
+                width: 1276.6870854492188px;
+            }
+        </style>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Control Panel For Trading Terminal" />
+        <meta name="keywords"
+            content="Trading Bot" />
+        <meta name="author" content="MacroDigest" />
+        <title>MacroDigest Control Panel</title>
+        <link rel="preload" href="{% static 'fonts/Unicons.woff2' %}" as="font" type="font/woff2" crossorigin="" />
+        <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" />
+        <link rel="stylesheet" href="{% static 'css/plugins.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/purple.css' %}" />
+        <link rel="preload" href="{% static 'css/thicccboi.css' %}" as="style" />
+        <nav id="sticky-navbar" class="navbar navbar-expand-lg classic transparent navbar-light navbar-clone fixed">
+            <div class="container flex-lg-row flex-nowrap align-items-center">
+                <div class="navbar-brand w-100">
+                    <a href="https://htmlpage.cn">
+                        <img src="{% static 'img/logo-small-svg.svg' %}" alt="" />
+                    </a>
+                </div>
+                <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                    <div class="offcanvas-header d-lg-none">
+                        <h3 class="text-white fs-30 mb-0">HTMLPAGE.CN</h3><button type="button"
+                            data-bs-dismiss="offcanvas" aria-label="Close"
+                            class="btn-close btn-close-white">Send</button>
+                    </div>
+                    <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+                            <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+                                    class="nav-link dropdown-toggle">MacroDigest</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown dropdown-submenu dropend"><a href="#" data-bs-toggle="dropdown"
+                                            class="dropdown-item dropdown-toggle">用户体验</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="./services.html"
+                                                    class="dropdown-item">交互体验设计</a></li>
+                                            <li class="nav-item"><a href="./services2.html"
+                                                    class="dropdown-item">体验与用户行为</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown dropdown-submenu dropend"><a href="#" data-bs-toggle="dropdown"
+                                            class="dropdown-item dropdown-toggle">视觉设计</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="./about.html" class="dropdown-item">界面设计</a>
+                                            </li>
+                                            <li class="nav-item"><a href="./about2.html" class="dropdown-item">平面设计</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="./pricing.html" class="dropdown-item">架构设计</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+                                    class="nav-link dropdown-toggle">Economic Calendar</a>
+                                <div class="dropdown-menu dropdown-lg">
+                                    <div class="dropdown-lg-content">
+                                        <div>
+                                            <h6 class="dropdown-header">体验设计</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="./projects.html" class="dropdown-item">某电商平台</a></li>
+                                                <li><a href="./projects2.html" class="dropdown-item">某电商平台</a></li>
+                                            </ul>
+                                        </div><!-- /.column -->
+                                        <div>
+                                            <h6 class="dropdown-header">交互设计</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="./single-project.html" class="dropdown-item">某游戏平台</a></li>
+                                                <li><a href="./single-project2.html" class="dropdown-item">某游戏平台</a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- /.column -->
+                                    </div><!-- /auto-column -->
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+                                    class="nav-link dropdown-toggle">About us</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a href="./blog.html" class="dropdown-item">企业介绍</a></li>
+                                    <li class="nav-item"><a href="./blog2.html" class="dropdown-item">企业文化</a></li>
+                                    <li class="dropdown dropdown-submenu dropend"><a href="#" data-bs-toggle="dropdown"
+                                            class="dropdown-item dropdown-toggle">联系方式</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="./blog-post.html"
+                                                    class="dropdown-item">联系电话</a></li>
+                                            <li class="nav-item"><a href="./blog-post2.html"
+                                                    class="dropdown-item">电子邮件</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul><!-- /.navbar-nav -->
+                        <div class="offcanvas-footer d-lg-none">
+                            <div><a href="mailto:first.last@email.com" class="link-inverse">help@lapus.cn</a><br /> 00
+                                (123) 456 78 90 <br />
+                                <nav class="nav social social-white mt-4"><a href="#"><i
+                                            class="uil uil-twitter"></i></a><a href="#"><i
+                                            class="uil uil-facebook-f"></i></a><a href="#"><i
+                                            class="uil uil-dribbble"></i></a><a href="#"><i
+                                            class="uil uil-instagram"></i></a><a href="#"><i
+                                            class="uil uil-youtube"></i></a></nav><!-- /.social -->
+                            </div>
+                        </div><!-- /.offcanvas-footer -->
+                    </div><!-- /.offcanvas-body -->
+                </div><!-- /.navbar-collapse -->
+                <div class="navbar-other ms-lg-4"><!-- /.navbar-nav --></div><!-- /.navbar-other -->
+            </div><!-- /.container -->
+        </nav>
+        <div class="content-wrapper">
+            <header class="wrapper bg-soft-primary">
+                <nav class="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none">
+                    <div class="container">
+                        <div
+                            class="navbar-collapse-wrapper bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center">
+                            <div class="navbar-brand w-100">
+                                <a href="https://htmlpage.cn">
+                                    <img src="{% static 'img/logo-small-svg.svg' %}" alt="" />
+                                </a>
+                            </div>
+                            <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                                <div class="offcanvas-header d-lg-none">
+                                    <h3 class="text-white fs-30 mb-0">HTMLPAGE.CN</h3><button type="button"
+                                        data-bs-dismiss="offcanvas" aria-label="Close"
+                                        class="btn-close btn-close-white">Send</button>
+                                </div>
+                                <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link">Home</a>
+                                        </li>
+                                        <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+                                                class="nav-link dropdown-toggle">MacroDigest</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown dropdown-submenu dropend"><a href="#"
+                                                        data-bs-toggle="dropdown"
+                                                        class="dropdown-item dropdown-toggle">用户体验</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="nav-item"><a href="./services.html"
+                                                                class="dropdown-item">交互体验设计</a></li>
+                                                        <li class="nav-item"><a href="./services2.html"
+                                                                class="dropdown-item">体验与用户行为</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown dropdown-submenu dropend"><a href="#"
+                                                        data-bs-toggle="dropdown"
+                                                        class="dropdown-item dropdown-toggle">视觉设计</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="nav-item"><a href="./about.html"
+                                                                class="dropdown-item">界面设计</a></li>
+                                                        <li class="nav-item"><a href="./about2.html"
+                                                                class="dropdown-item">平面设计</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item"><a href="./pricing.html"
+                                                        class="dropdown-item">架构设计</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+                                                class="nav-link dropdown-toggle">Economic Calendar</a>
+                                            <div class="dropdown-menu dropdown-lg">
+                                                <div class="dropdown-lg-content">
+                                                    <div>
+                                                        <h6 class="dropdown-header">体验设计</h6>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="./projects.html"
+                                                                    class="dropdown-item">某电商平台</a></li>
+                                                            <li><a href="./projects2.html"
+                                                                    class="dropdown-item">某电商平台</a></li>
+                                                        </ul>
+                                                    </div><!-- /.column -->
+                                                    <div>
+                                                        <h6 class="dropdown-header">交互设计</h6>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="./single-project.html"
+                                                                    class="dropdown-item">某游戏平台</a></li>
+                                                            <li><a href="./single-project2.html"
+                                                                    class="dropdown-item">某游戏平台</a></li>
+                                                        </ul>
+                                                    </div><!-- /.column -->
+                                                </div><!-- /auto-column -->
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+                                                class="nav-link dropdown-toggle">About us</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item"><a href="./blog.html"
+                                                        class="dropdown-item">企业介绍</a></li>
+                                                <li class="nav-item"><a href="./blog2.html"
+                                                        class="dropdown-item">企业文化</a></li>
+                                                <li class="dropdown dropdown-submenu dropend"><a href="#"
+                                                        data-bs-toggle="dropdown"
+                                                        class="dropdown-item dropdown-toggle">联系方式</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="nav-item"><a href="./blog-post.html"
+                                                                class="dropdown-item">联系电话</a></li>
+                                                        <li class="nav-item"><a href="./blog-post2.html"
+                                                                class="dropdown-item">电子邮件</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul><!-- /.navbar-nav -->
+                                    <div class="offcanvas-footer d-lg-none">
+                                        <div><a href="mailto:first.last@email.com"
+                                                class="link-inverse">help@lapus.cn</a><br /> 13799264013 <br />
+                                            <nav class="nav social social-white mt-4"><a href="#"><i
+                                                        class="uil uil-twitter"></i></a><a href="#"><i
+                                                        class="uil uil-facebook-f"></i></a><a href="#"><i
+                                                        class="uil uil-dribbble"></i></a><a href="#"><i
+                                                        class="uil uil-instagram"></i></a><a href="#"><i
+                                                        class="uil uil-youtube"></i></a></nav><!-- /.social -->
+                                        </div>
+                                    </div><!-- /.offcanvas-footer -->
+                                </div><!-- /.offcanvas-body -->
+                            </div><!-- /.navbar-collapse --><!-- /.navbar-other -->
+                        </div><!-- /.navbar-collapse-wrapper -->
+                    </div><!-- /.container -->
+                </nav><!-- /.navbar -->
+            </header><!-- /header -->
+            <section class="wrapper bg-gradient-primary">
+                <div class="container py-14 pt-md-15 pb-md-18">
+                    <div class="row text-center"><!-- /column --></div><!-- /.row -->
+                    <div data-cues="slideInDown" data-group="join" data-delay="900"
+                        class="d-flex justify-content-center"><span><a href="{% url 'timesfmweb' %}"
+                                class="btn btn-lg btn-primary rounded-pill mx-1">Timesfm Forecast</a><a
+                                href="{% url 'backwardtest' %}"
+                                class="btn btn-lg btn-outline-primary rounded-pill mx-1">Backward Test</a><a
+                                href="{% url 'analysis' %}"
+                                class="btn btn-lg btn-primary rounded-pill mx-1">Analysis Result</a><a
+                                href="{% url 'account' %}"
+                                class="btn btn-lg btn-outline-primary rounded-pill mx-1">Account Info</a><a
+                                href="{% url 'setting' %}"
+                                class="btn btn-lg btn-primary rounded-pill mx-1">Setting &amp;
+                                System</a></span><span></span></div><!-- /div -->
+                    <div data-cue="fadeIn" data-delay="1600" class="row mt-12">
+                        <div class="col-lg-8 mx-auto">
+
+                            
+                            <figure>
+                                <h2 class="display-4 mb-3">Timesfm Forecast on NDX</h2>
+                            </figure>
+
+
+                            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                            <canvas id="myChart" width="100" height="70"></canvas>
+                            <script>
+                                var ctx = document.getElementById('myChart').getContext('2d');
+                                var myChart = new Chart(ctx, {
+                                    type: 'line', // Change this to 'line', 'pie', etc. depending on your need
+                                    data: {
+                                        labels: {{ chart_data.labels | safe }},
+                                        datasets: [{
+                                            label: 'Demo Chart',
+                                            data: {{ chart_data.values | safe }},
+                                            backgroundColor: [
+                                                'rgba(255, 99, 132, 0.2)',
+                                                'rgba(54, 162, 235, 0.2)',
+                                                'rgba(255, 206, 86, 0.2)',
+                                                'rgba(75, 192, 192, 0.2)'
+                                            ],
+                                            borderColor: [
+                                                'rgba(255, 99, 132, 1)',
+                                                'rgba(54, 162, 235, 1)',
+                                                'rgba(255, 206, 86, 1)',
+                                                'rgba(75, 192, 192, 1)'
+                                            ],
+                                            borderWidth: 1
+                                        }]
+                                    },
+                                    options: {
+                                        scales: {
+                                            yAxes: [{
+                                                ticks: {
+                                                    beginAtZero: true
+                                                }
+                                            }]
+                                        }
+                                    }
+                                });
+                            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div><!-- /column -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section><!-- /section -->
+            <section class="wrapper bg-light">
+                <div class="container"><!-- /.row -->
+                    <div class="row gx-lg-0 gy-10 align-items-center mb-15 mb-lg-18">
+                        <div class="col-lg-6 order-lg-2 offset-lg-1 grid">
+                            <div class="row gx-md-5 gy-5 align-items-center counter-wrapper isotope">
+                                <div class="item col-md-6">
+                                    <div class="card shadow-lg">
+                                        <div class="card-body">
+                                            <div class="d-flex d-lg-block d-xl-flex flex-row">
+                                                <div>
+                                                    <div
+                                                        class="icon btn btn-circle btn-lg btn-soft-purple pe-none mx-auto me-4 mb-lg-3 mb-xl-0">
+                                                        <i class="uil uil-presentation-check"></i> </div>
+                                                </div>
+                                                <div>
+                                                    <h3 class="counter mb-1">397K+</h3>
+                                                    <p class="mb-0">导出页面</p>
+                                                </div>
+                                            </div>
+                                        </div><!--/.card-body -->
+                                    </div><!--/.card -->
+                                </div><!--/column -->
+                                <div class="item col-md-6">
+                                    <div class="card shadow-lg">
+                                        <div class="card-body">
+                                            <div class="d-flex d-lg-block d-xl-flex flex-row">
+                                                <div>
+                                                    <div
+                                                        class="icon btn btn-circle btn-lg btn-soft-red pe-none mx-auto me-4 mb-lg-3 mb-xl-0">
+                                                        <i class="uil uil-users-alt"></i> </div>
+                                                </div>
+                                                <div>
+                                                    <h3 class="counter mb-1">110K+</h3>
+                                                    <p class="mb-0">服务用户</p>
+                                                </div>
+                                            </div>
+                                        </div><!--/.card-body -->
+                                    </div><!--/.card -->
+                                </div><!--/column -->
+                                <div class="item col-md-6">
+                                    <div class="card shadow-lg">
+                                        <div class="card-body">
+                                            <div class="d-flex d-lg-block d-xl-flex flex-row">
+                                                <div>
+                                                    <div
+                                                        class="icon btn btn-circle btn-lg btn-soft-yellow pe-none mx-auto me-4 mb-lg-3 mb-xl-0">
+                                                        <i class="uil uil-user-check"></i> </div>
+                                                </div>
+                                                <div>
+                                                    <h3 class="counter mb-1">2.6M+</h3>
+                                                    <p class="mb-0">累计访问</p>
+                                                </div>
+                                            </div>
+                                        </div><!--/.card-body -->
+                                    </div><!--/.card -->
+                                </div><!--/column -->
+                                <div class="item col-md-6">
+                                    <div class="card shadow-lg">
+                                        <div class="card-body">
+                                            <div class="d-flex d-lg-block d-xl-flex flex-row">
+                                                <div>
+                                                    <div
+                                                        class="icon btn btn-circle btn-lg btn-soft-aqua pe-none mx-auto me-4 mb-lg-3 mb-xl-0">
+                                                        <i class="uil uil-trophy"></i> </div>
+                                                </div>
+                                                <div>
+                                                    <h3 class="counter mb-1">110K+</h3>
+                                                    <p class="mb-0">信赖用户</p>
+                                                </div>
+                                            </div>
+                                        </div><!--/.card-body -->
+                                    </div><!--/.card -->
+                                </div><!--/column -->
+                            </div><!--/.row -->
+                        </div><!--/column -->
+                        <div class="col-lg-5">
+                            <h2 class="display-4 mb-3">CNN Fear and Greed Index</h2>
+                            <p class="lead fs-lg lh-sm">自2013年起，HTMLPAGE.CN为超过10万用户提供在线页面设计服务<br /><br />Current
+                                Sentiment: Fear</p>
+                        </div><!--/column -->
+                    </div><!--/.row -->
+                </div><!-- /.container -->
+                <div class="overflow-hidden"><!-- /.container --></div><!-- /.overflow-hidden -->
+            </section><!-- /section -->
+            <section class="wrapper bg-light"><!-- /.container --></section><!-- /section -->
+        </div><!-- /.content-wrapper -->
+        <footer class="bg-gradient-reverse-primary">
+            <div class="container pt-13 pt-md-15 pb-7">
+                <div data-image-src="{% static 'img/bg2.jpg' %}"
+                    class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400 mb-13"><!--/.card-body -->
+                </div><!--/.card -->
+                <div class="row gy-6 gy-lg-0">
+                    <div class="col-lg-4">
+                        <div class="widget">
+                            <h3 class="h2 mb-3">Join us</h3>
+                            <p class="lead mb-5">Feel Free to join us and contribute to this project. </p><a href="#"
+                                class="btn btn-primary rounded-pill">Join</a>
+                        </div><!-- /.widget -->
+                    </div><!-- /column -->
+                    <div class="col-md-4 col-lg-2 offset-lg-2">
+                        <div class="widget">
+                            <h4 class="widget-title mb-3">Contact</h4>
+                            <ul class="list-unstyled text-reset mb-0">
+                                <li><a href="#">China·Beijing</a></li>
+                                <li><a href="#">hel053@ucsd.edu<br /></a></li>
+                                <li><a href="#">(+86) 13661235860</a></li>
+                            </ul>
+                        </div><!-- /.widget -->
+                    </div><!-- /column -->
+                    <div class="col-md-4 col-lg-2">
+                        <div class="widget">
+                            <h4 class="widget-title mb-3">More About us</h4>
+                            <ul class="list-unstyled text-reset mb-0">
+                                <li><a href="#">关于我们</a></li>
+                                <li><a href="#">解决方案</a></li>
+                                <li><a href="#">项目案例</a></li>
+                                <li><a href="#">隐私条款</a></li>
+                                <li><a href="#">相关法规</a></li>
+                            </ul>
+                        </div><!-- /.widget -->
+                    </div><!-- /column -->
+                    <div class="col-md-4 col-lg-2">
+                        <div class="widget">
+                            <h4 class="widget-title mb-3">Email</h4>
+                            <address>您可以发送邮件到：</address><a href="mailto:first.last@email.com"
+                                class="link-body">hel053@ucsd.edu<br /></a><br />
+                        </div><!-- /.widget -->
+                    </div><!-- /column -->
+                </div><!--/.row -->
+                <hr class="mt-13 mt-md-15 mb-7" />
+                <div class="d-md-flex align-items-center justify-content-between">
+                    <p class="mb-2 mb-lg-0">© 2024 MacroDigest. All rights reserved.</p><!-- /.social -->
+                </div><!-- /div -->
+            </div><!-- /.container -->
+        </footer>
+        <script src="{% static 'js/plugins.js' %}"></script>
+        <script src="{% static 'js/theme.js' %}"></script>
+    </div>
+</body>
+
+</html>
